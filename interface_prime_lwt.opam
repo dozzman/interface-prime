@@ -1,0 +1,14 @@
+opam-version: "2.0"
+name: "interface_prime_lwt"
+version: "~dev"
+synopsis: "Interfaces for abstracting stuff (LWT implementation)"
+maintainer: "Dorian <dorian@vereia.com>"
+authors: "Dorian <dorian@vereia.com>"
+build: [
+  ["dune" "build" "-p" name]
+]
+depends: [
+  "interface_prime"
+  "lwt.unix"
+]
+dev-repo: "git+https://github.com:dozzman/interface_prime.git"

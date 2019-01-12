@@ -1,0 +1,25 @@
+lib: [
+  "_build/install/default/lib/interface_prime/META" {"META"}
+  "_build/install/default/lib/interface_prime/interface'.a" {"interface'.a"}
+  "_build/install/default/lib/interface_prime/interface'.cma" {"interface'.cma"}
+  "_build/install/default/lib/interface_prime/interface'.cmi" {"interface'.cmi"}
+  "_build/install/default/lib/interface_prime/interface'.cmt" {"interface'.cmt"}
+  "_build/install/default/lib/interface_prime/interface'.cmx" {"interface'.cmx"}
+  "_build/install/default/lib/interface_prime/interface'.cmxa" {"interface'.cmxa"}
+  "_build/install/default/lib/interface_prime/interface'.cmxs" {"interface'.cmxs"}
+  "_build/install/default/lib/interface_prime/interface'.ml" {"interface'.ml"}
+  "_build/install/default/lib/interface_prime/interface'__Io.cmi" {"interface'__Io.cmi"}
+  "_build/install/default/lib/interface_prime/interface'__Io.cmt" {"interface'__Io.cmt"}
+  "_build/install/default/lib/interface_prime/interface'__Io.cmx" {"interface'__Io.cmx"}
+  "_build/install/default/lib/interface_prime/interface'__Monad.cmi" {"interface'__Monad.cmi"}
+  "_build/install/default/lib/interface_prime/interface'__Monad.cmt" {"interface'__Monad.cmt"}
+  "_build/install/default/lib/interface_prime/interface'__Monad.cmx" {"interface'__Monad.cmx"}
+  "_build/install/default/lib/interface_prime/interface'__Monad_result.cmi" {"interface'__Monad_result.cmi"}
+  "_build/install/default/lib/interface_prime/interface'__Monad_result.cmt" {"interface'__Monad_result.cmt"}
+  "_build/install/default/lib/interface_prime/interface'__Monad_result.cmx" {"interface'__Monad_result.cmx"}
+  "_build/install/default/lib/interface_prime/interface_prime.dune" {"interface_prime.dune"}
+  "_build/install/default/lib/interface_prime/io.ml" {"io.ml"}
+  "_build/install/default/lib/interface_prime/monad.ml" {"monad.ml"}
+  "_build/install/default/lib/interface_prime/monad_result.ml" {"monad_result.ml"}
+  "_build/install/default/lib/interface_prime/opam" {"opam"}
+]
