@@ -1,5 +1,5 @@
 opam-version: "2.0"
-name: "prime_interface"
+name: "prime-interface"
 version: "~dev"
 synopsis: "Interfaces for abstracting stuff"
 maintainer: "Dorian <dorian@vereia.com>"
@@ -7,4 +7,4 @@ authors: "Dorian <dorian@vereia.com>"
 build: [
   ["dune" "build" "-p" name]
 ]
-dev-repo: "git+https://github.com:dozzman/interface_prime.git"
+dev-repo: "git+https://github.com:dozzman/interface-prime.git"

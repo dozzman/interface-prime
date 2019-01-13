@@ -1,0 +1,13 @@
+lib: [
+  "_build/install/default/lib/interface-prime-lwt/META" {"META"}
+  "_build/install/default/lib/interface-prime-lwt/interface'_lwt.cmi" {"interface'_lwt.cmi"}
+  "_build/install/default/lib/interface-prime-lwt/interface'_lwt.cmt" {"interface'_lwt.cmt"}
+  "_build/install/default/lib/interface-prime-lwt/interface'_lwt.cmx" {"interface'_lwt.cmx"}
+  "_build/install/default/lib/interface-prime-lwt/interface'_lwt.ml" {"interface'_lwt.ml"}
+  "_build/install/default/lib/interface-prime-lwt/interface-prime-lwt.dune" {"interface-prime-lwt.dune"}
+  "_build/install/default/lib/interface-prime-lwt/interface_prime_lwt.a" {"interface_prime_lwt.a"}
+  "_build/install/default/lib/interface-prime-lwt/interface_prime_lwt.cma" {"interface_prime_lwt.cma"}
+  "_build/install/default/lib/interface-prime-lwt/interface_prime_lwt.cmxa" {"interface_prime_lwt.cmxa"}
+  "_build/install/default/lib/interface-prime-lwt/interface_prime_lwt.cmxs" {"interface_prime_lwt.cmxs"}
+  "_build/install/default/lib/interface-prime-lwt/opam" {"opam"}
+]
