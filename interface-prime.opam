@@ -1,5 +1,5 @@
 opam-version: "2.0"
-name: "prime-interface"
+name: "interface-prime"
 version: "~dev"
 synopsis: "Interfaces for abstracting stuff"
 maintainer: "Dorian <dorian@vereia.com>"
