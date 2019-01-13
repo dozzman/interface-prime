@@ -9,6 +9,6 @@ build: [
 ]
 depends: [
   "interface-prime"
-  "lwt"
+  "lwt" {>= 4.1.0}
 ]
 dev-repo: "git+https://github.com:dozzman/interface_prime.git"
