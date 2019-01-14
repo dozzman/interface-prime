@@ -5,7 +5,6 @@ synopsis: "Interfaces for common design patterns"
 maintainer: "Dorian Peake <dorian@vereia.com>"
 authors: "Dorian Peake <dorian@vereia.com>"
 homepage: "https://github.com/dozzman/interface-prime"
-doc: "https://dozzman.github.io/interface-prime/docs"
 bug-reports: "https://github.com/dozzman/interface-prime/issues"
 tags: [
   "interface"
