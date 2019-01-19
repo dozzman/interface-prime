@@ -8,9 +8,9 @@ module type S = sig
   include S_base
   val (>>=) : 'a t -> ('a -> 'b t) -> 'b t
   val (=<<) : ('a -> 'b t) -> 'a t -> 'b t
+  val (>|=) : 'a t -> ('a -> 'b) -> 'b t
   val (>>) : 'a t -> 'b t Lazy.t -> 'b t
   val fmap : ('a -> 'b) -> 'a t -> 'b t
-  val (>|=) : 'a t -> ('a -> 'b) -> 'b t
   val seq : 'a t list -> 'a list t
 end
 
@@ -22,9 +22,4 @@ module Make(M : S_base) : S with type 'a t = 'a M.t = struct
   let fmap f m = M.bind m (fun x -> x |> f |> M.return)
   let (>|=) m f = fmap f m
   let seq ms = List.fold_right (fun m acc -> acc >>= fun l -> m >>= fun x -> return (x::l)) ms (return [])
-end
-
-module type ErrorType = sig
-  type t
-  val of_exn : exn -> t
 end

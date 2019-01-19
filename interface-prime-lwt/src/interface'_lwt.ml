@@ -6,20 +6,7 @@ end
 
 module Monad = Interface'.Monad.Make(Monad_base)
 
-
-module Monad_result(E : Interface'.Monad.ErrorType) = Interface'.Monad_result.Make(Monad)(E)
-
-(*module Make_io(M : Interface'.Monad.S with type +'a t = 'a Lwt.t) = struct
-  module M = M
-  open M
-  type in_channel = Lwt_io.input_channel
-  type out_channel = Lwt_io.output_channel
-  let read ic count =
-    let bytes = Bytes.create count in
-    Lwt_io.read_into_exactly ic bytes 0 count
-    >> (bytes |> Bytes.to_string |> return)
-end
-*)
+module Monad_result(E : Interface'.Monad_result.ErrorType) = Interface'.Monad_result.Make(Monad)(E)
 
 module Io : Interface'.Io.S with module M = Monad and type in_channel = Lwt_io.input_channel and type out_channel = Lwt_io.output_channel = struct
   module M = Monad
