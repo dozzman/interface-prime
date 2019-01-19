@@ -1,7 +1,6 @@
 module type ErrorType = sig
   type t
   val of_exn : exn -> t
-  (* val of_string : string -> t *)
 end
 
 module type S = sig
